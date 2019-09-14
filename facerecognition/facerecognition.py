@@ -15,9 +15,9 @@ import numpy as np
 video_capture = cv2.VideoCapture(0)
 
 # C:\Users\devendran.munuswamy\.windows-build-tools\python27\Lib
-cascPath = "/usr/local/lib/python27/site-packages/cv2/data/haarcascade_frontalface_default.xml"
-eyePath = "/usr/local/lib/python27/site-packages/cv2/data/haarcascade_eye.xml"
-smilePath = "/usr/local/lib/python27/site-packages/cv2/data/haarcascade_smile.xml"
+cascPath = "/Home/anaconda3/envs/face_recognition/lib/python3.7/site-packages/cv2/data/haarcascade_frontalface_default.xml"
+eyePath = "/Home/anaconda3/envs/face_recognition/lib/python3.7/site-packages/cv2/data/haarcascade_eye.xml"
+smilePath = "/Home/anaconda3/envs/face_recognition/lib/python3.7/site-packages/cv2/data/haarcascade_smile.xml"
 faceCascade = cv2.CascadeClassifier(cascPath)
 eyeCascade = cv2.CascadeClassifier(eyePath)
 smileCascade = cv2.CascadeClassifier(smilePath)
